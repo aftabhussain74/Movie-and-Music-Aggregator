@@ -1,0 +1,58 @@
+spotify:
+    Song:
+        songID
+        SongName
+        ArtistName
+        Release_date
+        Popularity
+        Duration
+        Type (album_type)
+        AlbumID (foreign key)
+    
+    Album:
+        AlbumID
+        Album_Name
+        Total_tracks
+        ArtistName
+        Release_date
+    
+
+msd:
+    id,
+    title,
+    release,
+    artist_name,
+    duration,
+    artist_familiarity,
+    year
+
+
+Amazon Music:
+    Sno,
+    Album_Name,
+    Artist_Name,
+    Song_Name,
+    Price,
+    Time,
+    Released,
+    Label,
+    Copyright,
+    Genre
+
+    
+iTunes:
+    Sno,
+    Album_Name,
+    Album_Price,
+    Artist_Name,
+    CopyRight,
+    Customer_Rating,
+    Genre,
+    Price,
+    Released,
+    Song_Name,
+    Time
+
+
+
+

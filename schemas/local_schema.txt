@@ -1,0 +1,73 @@
+
+---MOVIES1-----
+local schema for IMBD:
+Index['Id', 'Name', 'YearRange', 'ReleaseDate', 'Director', 'Creator', 'Cast',
+       'Duration', 'RatingValue', 'ContentRating', 'Genre', 'Url',
+       'Description']
+
+local schema for Rotten_tomatoes:
+Index['Id', 'Name', 'Year', 'Release Date', 'Director', 'Creator', 'Actors',
+       'Cast', 'Language', 'Country', 'Duration', 'RatingValue', 'RatingCount',
+       'ReviewCount', 'Genre', 'Filming Locations', 'Description']
+
+
+
+
+-----MOVIES 2-----------
+local schema for IMBD:
+Index(['ID', ' name', ' year', ' director', ' writers', ' actors '], dtype='object')
+
+local schema for TMD
+Index(['ID', 'title', 'year', 'director(s)', 'writer(s)', 'actor(s)'], dtype='object')
+
+
+
+-------MOVIES 3------------
+local schema for IMBD:
+Index(['ID', 'Title', 'Year', 'Rating', 'Director', 'Creators', 'Cast',
+       'Genre', 'Duration', 'ContentRating', 'Summary'],
+      dtype='object')
+
+local schema for Rotten_tomatoes:
+Index(['ID', 'Title', 'Year', 'Rating', 'Director', 'Creators', 'Cast',
+       'Genre', 'Duration', 'ContentRating', 'Summary'],
+      dtype='object')
+
+
+
+--------MOVIES 4--------------
+local schema Amazon:
+Index(['id', 'title', 'time', 'director', 'year', 'star', 'cost'], dtype='object')
+
+ local schema for rotten_tomatoes:
+Index(['id', 'title', 'time', 'director', 'year', 'star1', 'star2', 'star3',
+       'star4', 'star5', 'star6', 'rotten_tomatoes', 'audience_rating',
+       'review1', 'review2', 'review3', 'review4', 'review5'],
+      dtype='object')
+
+
+
+
+--------------MOVIES 5--------------
+local schema for IMBD:
+Index(['id', 'movie_name', 'year', 'directors', 'actors', 'movie_rating',
+       'genre', 'duration'],
+      dtype='object')
+
+local schema for Roger_ebert:
+Index(['id', 'movie_name', 'year', 'directors', 'actors', 'critic_rating',
+       'genre', 'pg_rating', 'duration'],
+      dtype='object')
+
+
+
+
+-----------TMDB 5000------- (DONE)
+local schema for tmbd:
+Index(['budget', 'genres', 'homepage', 'id', 'keywords', 'original_language',
+       'original_title', 'overview', 'popularity', 'production_companies',
+       'production_countries', 'release_date', 'revenue', 'runtime',
+       'spoken_languages', 'status', 'tagline', 'title', 'vote_average',
+       'vote_count'],
+      dtype='object')
+

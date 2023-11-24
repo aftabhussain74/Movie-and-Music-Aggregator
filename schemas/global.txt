@@ -1,0 +1,62 @@
+Global Schema :
+
+
+Movie Data:
+    Movie ID                    (primary key)
+    Title                       (varchar) 
+    Release Year                (varint)
+    Genre(s)                    (set)
+    Adult                       (boolean)
+    Popularity                  (varfloat)
+    runtime  (in seconds)       (varint)    
+    Director(s)                 (set)
+    Production_company          (varchar)    
+    Cast (actors and actresses) (varchar)
+    Description/Plot            (varchar)    
+    Language                    (varchar)
+    Average User Rating         (varfloat)
+    
+
+USER:
+    UserID                      (primary key)
+    UserName                    (varchar)
+    Useremail
+    Password*
+    Created_at                  (Date)
+    Birthyear                   (varint)
+    Watchlist
+    Already_watched*
+    Genre_preferences           (set)
+
+
+User Ratings :
+    User ID                    (foreign key)
+    Movie ID                   (foreign key)
+    Rating                     (varfloat)
+    Timestamp*                  
+    
+
+Genres :
+    Genre ID                    (primary key)
+    Genre Name                  (varchar)
+    Description (if available)  (varchar)
+    
+
+Tags:
+    UserID                      (foreign key)
+    MoiveID                     (foreign key)
+    tag                         (varchar) (composite key of movieID and tag)
+    timestamp*
+
+
+--------------------SONG------------------
+
+Song:
+    songID                      (primary key)
+    Song_Name                   (varchar)
+    Duration/Time (in seconds)       (varint)
+    Popularity                  (varfloat)
+    Release_date                (Date)
+    Artist_Name                 (varchar)
+    Album_Name                  (varchar)
+    

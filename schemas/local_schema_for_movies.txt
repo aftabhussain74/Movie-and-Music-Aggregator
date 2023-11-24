@@ -1,0 +1,92 @@
+
+
+***data\ml-latest\ml-latest\***
+
+Movielens:
+    Movies:
+        movieId,
+        title,
+        genres
+    
+    ratings:
+        UserID
+        MoiveID
+        rating
+
+    tags:
+        userId,
+        movieId,
+        tag,
+        timestamp
+
+
+
+***data\AllMoviesDetailsCleaned.csv*** (AMDC)
+Movies:
+    id;
+    budget;
+    genres;
+    imdb_id;
+    original_language;
+    original_title;
+    overview;
+    popularity;
+    production_companies;
+    production_countries
+    release_date
+    revenue;
+    runtime;
+    spoken_languages;
+    status;
+    tagline;
+    title;
+    vote_average;
+    vote_count;
+    production_companies_number;
+    production_countries_number;
+    spoken_languages_number
+
+
+***data\movies_metadata.csv***
+Movies_metadata:
+    adult,
+    belongs_to_collection,
+    budget,
+    genres,
+    homepage,
+    id,
+    imdb_id,
+    original_language,
+    original_title,
+    overview,
+    popularity,
+    poster_path,
+    production_companies,
+    production_countries,
+    release_date,
+    revenue,
+    runtime,
+    spoken_languages,
+    status,
+    tagline,
+    title,
+    video,
+    vote_average,
+    vote_count
+
+
+***data\title.basics.tsv\data.tsv***
+TSV:
+    tconst	
+    titleType	
+    primaryTitle	
+    originalTitle	
+    isAdult	
+    startYear	
+    endYear	
+    runtimeMinutes	
+    genres
+
+
+
+
